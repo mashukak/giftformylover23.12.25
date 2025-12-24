@@ -8,11 +8,12 @@ const RulesPage = ({ onNext }) => {
         
         <div className="rules-content">
           <ol>
-            <li>Quiz besteht aus 15 Fragen</li>
+            <li>Quiz besteht aus 26 Fragen</li>
             <li>Jede Frage hat 4 Antworten</li>
             <li>Nur ein Antwort ist richtig</li>
             <li>Du kannst ein mal "Help von Freundin" benutzen</li>
             <li>Nach dem Auswahl click auf "WEITER"</li>
+            <li>Du kriegst das Geschenk wenn würde alle Fragen richtig beantworten</li>
             <li>Viel Erfolg mein Schatzi!</li>
           </ol>
         </div>

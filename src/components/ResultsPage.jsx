@@ -4,9 +4,11 @@ const ResultsPage = ({ score, totalQuestions, onRestart }) => {
   const percentage = Math.round((score / totalQuestions) * 100)
   
   const getResultMessage = () => {
+    if (percentage == 100) return "BABBBYYYY SOOOOOOO SÜÜÜÜÜÜÜß. Ich liebe dich so dollllll mein Alles) Hier ist deine Belohnung..."
     if (percentage >= 90) return "Wie immer perfect Schatzi!Ich liebe dich so doll Baby!Hier ist dein Geschenk!!!!"
     if (percentage >= 70) return "GUUUUUUUUT MUA... aber musst noch mal machen auf 100 PROZENTTT!"
     if (percentage >= 50) return "Alter... Okay...Mach noch mal schnell!!!!"
+    if (percentage <= 50) return "0 Kommentaren, mach noch mal..."
     return "Du kannst es noch mal machen)))"
   }
 

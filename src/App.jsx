@@ -49,58 +49,128 @@ function App() {
     },
     {
       id: 7,
-      question: "",
-      options: ["1989", "1991", "1994", "1996"],
-      correctAnswer: 1
+      question: "Was liebe ich an mein Süßer am meistens?",
+      options: ["deine Lächeln", "deine Art", "deine Stimme", "deine Nähe"],
+      correctAnswer: 3
     },
     {
       id: 8,
-      question: "У якому році Україна стала незалежною?",
-      options: ["1989", "1991", "1994", "1996"],
-      correctAnswer: 1
+      question: "Was mag ich mehr??",
+      options: ["Worte", "Taten", "Blicke", "Nähe"],
+      correctAnswer: 3
     },
     {
       id: 9,
-      question: "У якому році Україна стала незалежною?",
-      options: ["1989", "1991", "1994", "1996"],
+      question: "Was beruhigt mich am meistens?",
+      options: ["Musik", "Umarmungen", "Schlaf", "Spaziergang"],
       correctAnswer: 1
     },
     {
       id: 10,
-      question: "У якому році Україна стала незалежною?",
-      options: ["1989", "1991", "1994", "1996"],
-      correctAnswer: 1
+      question: "Was trinke ich lieber?",
+      options: ["Kaffee", "Tee", "Saft", "Wasser"],
+      correctAnswer: 2
     },
     {
       id: 11,
-      question: "У якому році Україна стала незалежною?",
-      options: ["1989", "1991", "1994", "1996"],
-      correctAnswer: 1
+      question: "Welche Jahreszeit mag ich am meisten?",
+      options: ["Winter", "Frühling", "Sommer", "Herbst"],
+      correctAnswer: 2
     },
     {
       id: 12,
-      question: "У якому році Україна стала незалежною?",
-      options: ["1989", "1991", "1994", "1996"],
+      question: "Was esse ich lieber?",
+      options: ["Süßes", "Salziges", "Scharfes", "Saures"],
       correctAnswer: 1
     },
     {
       id: 13,
-      question: "У якому році Україна стала незалежною?",
-      options: ["1989", "1991", "1994", "1996"],
+      question: "Was passiert, wenn ich Egal?",
+      options: ["Es ist mir wirklich egal", "Ich habe schon entschieden", "Test für mein Baby", "Kleine Katastrophe"],
       correctAnswer: 1
     },
     {
       id: 14,
-      question: "У якому році Україна стала незалежною?",
-      options: ["1989", "1991", "1994", "1996"],
-      correctAnswer: 1
+      question: "Was mache ich, wenn ich Hunger habe?",
+      options: ["Geduldig warten", "Nichts sagen", "Plötzlich habe ich schlechte Laune", "Alles essen"],
+      correctAnswer: 2
     },
     {
       id: 15,
       question: "Wie lange habe ich keine Periode(TAGE)",
       options: ["3", "1", "2", "0"],
       correctAnswer: 3
+    },
+     {
+      id: 16,
+      question: "Was mache ich beim Einkaufen?",
+      options: ["Hab konkrette Ziel", "Alles anschauen", "Mehr kaufen als geplant", "Nur kurz schauen"],
+      correctAnswer: 2
+    },
+     {
+      id: 17,
+      question: "Was esse ich, obwohl ich gesagt habe ich habe kein Hunger?",
+      options: ["Nichts", "Nur ein Stück", "Alles", "Die Hälfte von seinem Essen"],
+      correctAnswer: 2
+    },
+     {
+      id: 18,
+      question: "Was passiert, wenn ich sage Mach was du willst?",
+      options: ["Du kannst wirklich selber entscheiden", "das ist ein Test", "das ist definitiv eine Gefahr", "du musst mich küssen"],
+      correctAnswer: 2
+    },
+    {
+      id: 19,
+      question: "Was mache ich wenn ich sage Ich komme gleich?",
+      options: ["1 min", "3 min", "5 min", "10 min"],
+      correctAnswer: 0
+    },
+    {
+      id: 20,
+      question: "Wie ist dein Humor?",
+      options: ["Süß", "Sarkastisch", "Schwarz", "Alles gemischt"],
+      correctAnswer: 3
+    },
+    {
+      id: 21,
+      question: "Was liebe ich mehr Schlaf oder Essen?",
+      options: ["Schlaf", "Essen", "Beides", "Bruder"],
+      correctAnswer: 1
+    },
+    {
+      id: 22,
+      question: "Was meine ich wenn ich sage Schon okay?",
+      options: ["Es ist okay", "Es ist NICHT okay", "Wir reden später", "Gefahr"],
+      correctAnswer: 0
+    },
+    {
+      id: 23,
+      question: "Wie gut kann ich deine Geheimnisse behalten? ",
+      options: ["Sehr gut", "Nur wichtige", "Ich vergesse sie", "Nur seine"],
+      correctAnswer: 0 
+    },
+    {
+      id: 24,
+      question: "Wie reagiere ich auf schlechtes Internet?",
+      options: ["Ruhig", "Genervt", "Panik", "Bett schlagen"],
+      correctAnswer: 3
+    },
+
+    {
+      id: 25,
+      question: "Was meinst du wenn DU sagst Schon okay?",
+      options: ["Es ist okay", "Es ist NICHT okay", "Wir reden später", "Gefahr"],
+      correctAnswer: 1
+    },
+    {
+      id: 26,
+      question: "Wie sehr will ich dir das Geschenk geben?0-10",
+      options: ["1", "3", "7", "10"],
+      correctAnswer: 3
     }
+
+
+    
   ]
 
   const handleStart = () => {
